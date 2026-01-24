@@ -5,7 +5,8 @@ import './App.css';
 // import Practice3 from './Practice3';
 // import Practice4 from './Practice4';
 // import Practice5 from './Practice5';
-import Practice6 from './Practice6';
+// import Practice6 from './Practice6';
+import Practice7 from './Practice7';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <Practice3 /> */}
       {/* <Practice4 /> */}
       {/* <Practice5 /> */}
-      <Practice6 />
+      {/* <Practice6 /> */}
+      <Practice7 />
     </div>
   );
 }
