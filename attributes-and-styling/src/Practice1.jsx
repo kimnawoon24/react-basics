@@ -1,14 +1,18 @@
 function Practice1() {
+
+  const disableInput = true
+  
   return (
     <>
         <label
             htmlFor="username"        // for
-            Username:
         >
+          Username:
         </label>
         <input
             type = "text"
             id = "username"
+
             className="input-field"   // class
             autoComplete="off"        // autocomplete
 
@@ -17,11 +21,11 @@ function Practice1() {
             readOnly={false}          // readonly
             tabIndex={0}              // tabindex
 
-            disabled = (disableInput)
-            placeholder = (
+            disabled = {disableInput}
+            placeholder = {
               disableInput ? "(DISABLED)" : "Enter your name."
-        )
-        />
+            }
+          />
     </>
   )
 }

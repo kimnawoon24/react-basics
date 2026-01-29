@@ -1,6 +1,4 @@
-import './App.css'
-
-function App() {
+function Practice3() {
   
   const divStyle = {
     backgroundColor: 'lightblue',
@@ -29,4 +27,4 @@ function App() {
   )
 }
 
-export default App
+export default Practice3

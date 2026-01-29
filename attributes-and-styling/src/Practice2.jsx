@@ -1,19 +1,20 @@
-import './App.css'
+import reactLogo from './assets/React-icon.svg.png'
 
-function App() {
+const reactLogoAlt = 'React Logo'
+console.log(reactLogo)
+
+function Practice2() {
 
  return (
     <>
-      <span style={
-        {
-          fontWeight: "bold",
-          fontStyle: "italic"
-        }
-      }>
-        Bold & Italic
-      </span>
+      <img
+        src = {reactLogo}
+        alt = {reactLogoAlt}
+        width = {256}
+        height = {228}      
+      />
     </>
   )
 }
 
-export default App
+export default Practice2
